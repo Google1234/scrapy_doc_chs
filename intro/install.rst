@@ -102,6 +102,10 @@ Ubuntu 9.10及以上版本
 
     以上非python的依赖,可以用于在Debian Wheezy (7.0) 
     及以上的系统中安装Scrpay
+注意：ubuntu 16.04 系统没有自带依赖包，安装会报错，使用如下命令安装
+    sudo apt-get install python-dev python-pip libxml2-dev libxslt1-dev zlib1g-dev libffi-dev libssl-dev
+    sudo pip install Scrapy
+    
 
 Archlinux
 ---------
